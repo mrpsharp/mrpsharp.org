@@ -11,8 +11,7 @@ textarea {
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
+	color: #505050;
 }
 
 ::-moz-selection {
@@ -61,33 +60,164 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+	font-family: Futura, "Century Gothic", sans-serif;
+}
+
+.header {
+	width: 100%;
+	background-color: #cfcfcf;
+	padding-top: 0 em;
+	border: 0px;
+}
+
+.header h1 {
+	margin: 0px;
+	padding: 1.5em 1em;
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+	color: #666666;
+	text-align: left;
+	text-transform: capitalize;
+}
+
+.header a {
+	color:  inherit;
+/*	text-decoration: inherit;*/
+}
+
+.header a:hover {
+	/*text-decoration: underline;*/
+}
+
+.centerblock {
+	margin: auto;
+}
+
+a {
+	color: inherit;
+}
+
+.btn {
+  display: block;
+  font-size: 3em;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.btn li {
+	list-style-type: none;
+	border-radius: .5em;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin: 0.2em;
+}
+
+.btn a {
+	color: inherit;
+	text-decoration: inherit;
+}
 
 
 
+.fifthform {
+	background-color: rgba(254, 211, 211, 0.2);
+}
 
+.lowershell {
+	background-color: rgba(254, 211, 211, 0.4);
+	
+}
 
+.uppershell {
+	background-color: rgba(254, 211, 211, 0.6);
+	
+}
 
+.sixthform {
+	background-color: rgba(254, 211, 211, 0.8);
+	
+}
 
+.remove {
+	background-color: rgba(254, 211, 211, 1);	
+}
 
+.excel {
+	background-color: #ffd3d3;
+}
 
+.btn a:hover {
+	
+}
 
+.nextprep {
+	background-color: rgba(255, 32, 32, 0.5);
+	color: #000000;
+}
 
+.nextprep:hover {
+	background-color: rgba(255, 32, 32, 0.70);
+}
 
+strong {
+	color: red;
+}
 
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 800px) {
+	.content {
+		width:  800px;
+		margin: 0 auto;
+	}
 
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
+@media print {
+    h1 {
+    	font-size: 14pt;
+    	text-align: center;
+    }
+    
+    h2 {
+    	font-size: 12pt;
+    }
+    
+    body {
+    	font-size: 11pt;
+    	margin: 0;
+    }
+    
+    .btn {
+    	display: none;
+    }
+    
+    .content {
+		margin: 0 2cm;
+		padding: 0;
+	}
+	
+	.header h1 {
+		margin: 0;
+		font-size: 8pt;
+		text-align: left;
+	}
+	
+	.header a[href]:after {
+	    content: "";
+	}
 }
 
 /* ==========================================================================
