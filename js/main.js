@@ -18,7 +18,7 @@ insertCrumbs = function() {
 			subUrl = subUrl + components[i]	 + '/';	
 			txt = txt + '&nbsp / &nbsp;'  + aPref + 
 			    baseUrl + subUrl + aBefore + 
-				components[i].split(".")[0].replace(/-/g, ' ') + aAfter;
+				components[i].split(".")[0].replace(/-/g, ' ').replace(/_/g, ' ') + aAfter;
 		}
 	}
 	

@@ -4,10 +4,6 @@ layout: default
 ---
 # Welcome Fifth Form Physicists!
 
-<ul class="btn">
-	<a href="waves1.html"><li class="nextprep">Jump to next prep!</li></a>
-</ul>
-
 Before answering any Physics questions you must read and follow <a href="/answering-questions-in-physics.html">Answering Questions in Physics</a>.  **If you do not do this then you will find your answers returned!**
 
 Below you will find a list of resources by topic, most of them preps.  You can print these out or complete them by hand on a computer.  Once all are marked I will publish the answers...

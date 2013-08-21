@@ -85,12 +85,9 @@ h1, h2, h3 {
 	color: #666666;
 	text-align: left;
 	text-transform: capitalize;
+	line-height: inherit;
 }
 
-.header a {
-	color:  inherit;
-/*	text-decoration: inherit;*/
-}
 
 .header a:hover {
 	/*text-decoration: underline;*/
@@ -101,6 +98,11 @@ h1, h2, h3 {
 }
 
 a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+a:hover, a:visited {
 	color: inherit;
 }
 
