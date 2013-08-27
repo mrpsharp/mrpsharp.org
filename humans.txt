@@ -1,13 +1,11 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
-
-    <name> -- <role> -- <twitter>
+    Mr Peter Sharp -- everything! -- @mrpsharp
 
 # THANKS
 
-    <name>
+    Gitub Pages -- for hosting everything!
 
 # TECHNOLOGY COLOPHON
 

@@ -69,6 +69,15 @@ h1, h2, h3 {
 	font-family: Futura, "Century Gothic", sans-serif;
 }
 
+ol > li {
+	list-style-type: decimal;
+}
+
+ol li li {
+	list-style-type: lower-alpha;
+}
+
+
 .header {
 	width: 100%;
 	background-color: #cfcfcf;
