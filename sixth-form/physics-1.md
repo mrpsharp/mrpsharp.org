@@ -17,4 +17,4 @@ layout: default
     
 2. Over the course of an hour a car averages 40.2 miles per gallon (mpg).  By considering the units or otherwise convert this value to litres per 100 km.  *(1 gallon = 4.55 litres; 1 mile = 1.6 km)*
 
-3. 
+3. This will be the third question!
