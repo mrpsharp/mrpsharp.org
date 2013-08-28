@@ -65,6 +65,10 @@ body {
 	font-size: 16px;
 }
 
+.content {
+	padding: 1em;
+}
+
 
 h1, h2, h3 {
 	font-family: Futura, "Century Gothic", sans-serif;
