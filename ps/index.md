@@ -10,4 +10,4 @@ layout: default
 
 Use this to pick a random pupil from the 'set list' page on the intranet.
 
-[Random Pupil](javascript:document.body.appendChild(document.createElement("script")).src="http://mrpsharp.org/js/randomPupil.js";void(0))
+<a href="javascript:document.body.appendChild(document.createElement('script')).src='http://mrpsharp.org/js/randomPupil.js';void(0))">Random Pupil</a>
