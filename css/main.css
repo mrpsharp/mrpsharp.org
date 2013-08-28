@@ -65,6 +65,7 @@ body {
 	font-size: 16px;
 }
 
+
 h1, h2, h3 {
 	font-family: Futura, "Century Gothic", sans-serif;
 }
@@ -117,7 +118,7 @@ a:hover, a:visited {
 
 .btn {
   display: block;
-  font-size: 3em;
+  font-size: 2em;
   margin: 0px;
   padding: 0px;
   
@@ -137,6 +138,9 @@ a:hover, a:visited {
 	text-decoration: inherit;
 }
 
+.active {
+	font-weight: bold;
+}
 
 
 .fifthform {
@@ -162,7 +166,7 @@ a:hover, a:visited {
 	background-color: rgba(254, 211, 211, 1);	
 }
 
-.excel {
+.other {
 	background-color: #ffd3d3;
 }
 
@@ -192,6 +196,12 @@ strong {
 	.content {
 		width:  800px;
 		margin: 0 auto;
+	}
+	
+	
+	.span50 {
+		width: 50%;
+		float: left;
 	}
 
 }
