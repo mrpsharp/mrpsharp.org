@@ -46,7 +46,7 @@ function jqueryLoaded() {
 		}
 	});
 	shuffle(names);
-	alert(names)
+	alert(names[0])
 }
 
 function checkJquery() {
