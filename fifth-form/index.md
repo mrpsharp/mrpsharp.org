@@ -9,7 +9,7 @@ Before answering any Physics questions you must read and follow [Answering Quest
 Below you will find a list of resources by topic, most of them preps.  You can print these out or complete them by hand on a computer.  Once all are marked I will publish the answers...
 
 You may also want to check out the following:
- * [The Physics Department Fifth Form Pages](https://homepages.westminster.org.uk/physics/home.asp)
+ * [The Physics Department Home](https://homepages.westminster.org.uk/physics/home.asp)
  * [The Internal Syllabus](https://homepages.westminster.org.uk/physics/fifthform/syllabus.asp) *Note: this is a flexible document - if you are unsure about whether you need to know something speak to me before panicing!*
 
 [Physics 1](physics-1.html): These are some introductory questions on some physics you should already know.
