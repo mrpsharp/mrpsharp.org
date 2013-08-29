@@ -79,7 +79,9 @@ function main() {
   overlay.appendTo(document.body);
   $('#mirror').hide();
   $('#clear').click(function() { $('#overlay').hide(); return false;});
-  $('#overlay').focus();
+  setTimeout(function(){
+            $("#layout").focus();
+        }, 1);
   var mirror = document.getElementById('mirror');
   mirror.onclick = function() {
     for (i=0; i<rows.length; i++) {
