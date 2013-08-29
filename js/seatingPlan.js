@@ -65,13 +65,13 @@ function main() {
 		}
 	});
 	shuffle(names);
-	var overlay = jQuery('<div id="overlay"><h1>Seating Plan</h1>
+	var overlay = '<div id="overlay"><h1>Seating Plan</h1>
     <form id="layout_form">
     <label for="layout">Enter number of seats in each row, separated with spaces</label>
     <input type="text" name="layout" />
     <input type="submit" value="Go!" /> 
     </form>
-    <table></table></div>');
+    <table></table></div>';
   overlay.appendTo(document.body);
   $('#layout_form').submit(fucntion() {
     alert($('name="layout"').val());
