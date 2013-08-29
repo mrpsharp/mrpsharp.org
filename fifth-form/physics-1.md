@@ -25,4 +25,8 @@ $$ distance = speed \times time $$
 	4.	the length of a year
 	5.	the force needed to lift a textbook
 
-5. Name five types of energy.
+5. Name five types of energy.
+
+6. Use your calculator to find the answer to the following:
+$$ 13 \times \pi $$
+	Write your answer to three significant figures.
