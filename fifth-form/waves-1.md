@@ -15,4 +15,4 @@ layout: default
 
 4. A wave passes across a pond causing a pond-skater to move up and down 3 times in two seconds.  What are the time period and frequency of the wave?
 
-5. I musical insrument produces a sound wave with a frequency of 550 Hz.  Give your answer in milliseconds. 
+5. A musical insrument produces a sound wave with a frequency of 550 Hz.  Give your answer in milliseconds. 
