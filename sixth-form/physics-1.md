@@ -12,7 +12,7 @@ layout: default
     $$ R_{total} = \frac{R_1 R_2}{R_1 + R_2} $$
 
     2. It is suggested this “product over sum” rule may be extended to three resistors as follows:
-    $$ R_{total} = \frac{R_1 R_3 R_2}{R_1 + R_2 + R_3} $$
+    $$ R_{total} = \frac{R_1 R_2 R_3}{R_1 + R_2 + R_3} $$
     *Without using algebra* describe whether or not you think this is likely to be correct.
     
 2. Over the course of an hour a car averages 40.2 miles per gallon (mpg).  By considering the units or otherwise convert this value to litres per 100 km.  *(1 gallon = 4.55 litres; 1 mile = 1.6 km)*
