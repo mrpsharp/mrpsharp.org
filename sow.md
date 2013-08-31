@@ -4,6 +4,9 @@ layout: default
 ---
 # Schemes of Work 2013-14
 
+* toc
+{:toc}
+
 ## 5th
 * NEW SoW: Waves I\*
 * Electricity I\*
