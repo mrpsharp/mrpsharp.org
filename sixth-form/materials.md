@@ -7,12 +7,14 @@ layout: default
 * Introduction to Hooke's Law
 * Create table and graph in Excel
 * Moving from object properties to material properties
+
 ## Breaking Stress  
 * Stress is the generalised equivalent of Force
 * $\sigma=\frac{F}{A}$
 * Measure breaking stress of copper & steel.
 * Compare with published data [[http://en.wikipedia.org/wiki/Ultimate_tensile_strength#Typical_tensile_strengths|Typical Values]]
 * Discuss naming (UTS)
+
 ## Stress - Strain Graphs  
 * Plot graph of stress - strain for material
 * Demo with PASCO
@@ -20,6 +22,7 @@ layout: default
 * Region of proportionality associated with elastic deformation
 * Not always true - show elastic band
 * Variation with temp - Liquid N
+
 ## Young Modulus of Cu  
 * Carry out Young Modulus of Copper experiment (4/150E)
 * Plot **F** against **x**
@@ -27,6 +30,7 @@ layout: default
 
 Homework
 :AB&M 7.23, 7.30, 7.31, 7.33, 7.39, 7.43
+
 ## Stress - Strain curve in detail *This may take several lessons including calculations et*
 * Examine stress-strain curve for copper
 * Elastic region
@@ -49,7 +53,8 @@ Homework
 
 ## Effect of grainsize on dislocations  
 * Dislocation creep and grain size
-* Copper annealing experiment* Bend pipe, hard to bend back* Heat for a little time* [[http://www.materialseducation.org/educators/mated-modules/docs/Work_Hardening_and_Annealing_of_Copper.pdf]]* 
+* Copper annealing experiment (http://www.materialseducation.org/educators/mated-modules/docs/Work_Hardening_and_Annealing_of_Copper.pdf 
+
 ## Samurai Swords  
 Show video and get to write down processes.
 
