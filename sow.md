@@ -8,7 +8,7 @@ layout: default
 {:toc}
 
 ## 5th
-* NEW SoW: Waves I\*
+* [Waves I](fifth-form/waves.html)\*
 * Electricity I\*
 * Matter I
 * Motion I
@@ -16,7 +16,7 @@ layout: default
 NB Do not include the heat circus, as we will save that for the 2014-15 Lower Shell
 
 ## LS 	NEW SoW
-* Electricity II\*
+* [Electricity II](lower-shell/electricity-2.html)\*
 * Magnetism I\*
 * Waves II
 * Motion II
@@ -35,20 +35,20 @@ NB Do not include the heat circus, as we will save that for the 2014-15 Lower Sh
 \*Examinable at the end of the play term.
 
 ## Sixth Form (3 period teacher)
-* Quality of measurement introduction
+* [Quality of measurement introduction](sixth-form/qom.html)
 * Electrical properties of materials (4.3) and electricity (2)
 * Sensing (2)
 * Imaging (1)
 * Signalling (3)
 
 ## Sixth Form (4 period teacher)
-* Materials (4&5)
+* [Materials](sixth-form/materials.html) (4&5)
 * Waves (6)
 * Quantum (7)
 * Mechanics (8&9)
 
 ## Remove (teacher A)
-* Modelling (10)
+* [Modelling](remove/modelling.html)ß (10)
 * Cosmology (12)
 * Particles (17)
 * Nuclear(18)
