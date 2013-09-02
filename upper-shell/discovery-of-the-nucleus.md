@@ -4,7 +4,7 @@ layout: default
 ---
 # The discovery of the nucleus (Cambridge Physics)
 
-All the following refer to the pages at [Cambridge Outreach](http://www.cambridgephysics.org).
+All the following refer to the pages at [Cambridge Outreach](http://www.cambridgephysics.org).  Choose the sections that match the titles below from the multicoloured icons on the lower left part of the screen.
 
 ## J.J. Thomson's discovery of the electron
 
