@@ -15,14 +15,19 @@ insertCrumbs = function() {
 	
 	for (var i = 0; i < components.length; i++) {
 		if (components[i].length > 0) {
-			subUrl = subUrl + components[i]	 + '/';	
+            subUrl = subUrl + components[i];
+            if (i!=components.length -1) { subUrl += '/'; }
 			txt = txt + '&nbsp / &nbsp;'  + aPref + 
-			    baseUrl + subUrl + aBefore + 
+                baseUrl + subUrl + aBefore + 
 				components[i].split(".")[0].replace(/-/g, ' ').replace(/_/g, ' ') + aAfter;
 		}
+		
 	}
-	
 	crumbs.innerHTML = txt;
-}
-
-
+	
+	$('#breadcrumbs a:last').click(function() {
+        var text = $('#breadcrumbs a:last').prop("outerHTML");
+        window.prompt ("Copy to clipboard: Ctrl+C, Enter", text);
+        return false;
+	    });
+};
