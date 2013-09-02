@@ -44,3 +44,18 @@ Resources
 *	Definition of atomic (proton) number
 *	Definition of mass (nucleon) number
 *	Isotopes 
+
+## Intro to radioactivity
+* Becquerel and the discovery of radioactivity
+* Mystery of a previously unknown type of energy
+* Energy due to forces acting in the nucleus
+* Radiation detected by its ionising effect
+* Demonstration: discharge of an electroscope
+* Demonstration: alpha source and spark counter
+* Different types of radiation have different ionising powers
+* Demonstration: more sophisticated but similar GM tube
+* The becquerel as the unit of activity
+
+Equipment
+: MTX070 Spark counter
+: MTX090 Intro to radioactivity?
