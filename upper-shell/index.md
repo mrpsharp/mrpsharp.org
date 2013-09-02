@@ -13,4 +13,5 @@ You may also want to check out the following:
  * [The Edexcel IGCSE page](http://www.edexcel.com/quals/igcse/int-gcse11/physics/Pages/default.aspx): From here you can download the specification and look at past papers.
 
 ## Nuclear Physics
+*  [Nuclear 1](nuclear-1.html): The Geiger Marsden experiment and isotopes.
 
