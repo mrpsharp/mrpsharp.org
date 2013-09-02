@@ -12,3 +12,5 @@ You may also want to check out the following:
  * [The Physics Department Homepage](https://homepages.westminster.org.uk/physics/home.asp)
  * [The Internal Syllabus](https://homepages.westminster.org.uk/physics/lowershell/LShsyllabus.asp) *Note: this is a flexible document - if you are unsure about whether you need to know something speak to me before panicing!*
 
+## Electricity
+* [Electricity 1](electricity-1.html): Charge, current and circuits.
