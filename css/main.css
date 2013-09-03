@@ -34,7 +34,6 @@ hr {
 }
 
 img {
-    vertical-align: middle;
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -85,6 +84,15 @@ ol ol li {
 	list-style-type: lower-alpha;
 }
 
+/* H2 numbering */
+
+h1 { counter-reset: section; }
+
+h2:before
+    {
+    counter-increment:section;
+    content:counter(section) " ";
+    }
 
 .header {
 	width: 100%;

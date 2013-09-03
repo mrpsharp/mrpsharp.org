@@ -9,13 +9,13 @@ Choose route:
 <div class="clearfix">
 	<div class="span50">
 		<ul class="btn">
-			<a href="remove-a.html" class="top-btn"><li class="other">Route A (Modelling, Cosmology etc)</li></a>
+			<a href="A" class="top-btn"><li class="other">Route A (Modelling, Cosmology etc)</li></a>
 		</ul>
 	</div>
 	
 	<div class="span50">
 		<ul class="btn">
-			<a href="remove-b.html" class="top-btn"><li class="other">Route B (Gases, Fields etc)</li></a>
+			<a href="B" class="top-btn"><li class="other">Route B (Gases, Fields etc)</li></a>
 		</ul>
 	</div>
 </div>
