@@ -34,7 +34,7 @@ Equipment
 * Velocity
 * Frequency
 * Period
-* Derivation of v=f
+* Derivation of \\( v = \frac{f}{\lambda} \\)
 * Reminder of distance = speed x time
 * Calculation of frequency of Radio 4 (1500m LW)
 
