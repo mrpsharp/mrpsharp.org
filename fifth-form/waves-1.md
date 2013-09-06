@@ -2,9 +2,9 @@
 title: Waves 1
 layout: default
 ---
-1. Name four different waves and answer the following questions:
+1. Name three different waves and for each of them answer the following questions:
     1. What is it that is oscillating?
-    2. Is the wave transverse of longitudinal?
+    2. Is the wave transverse or longitudinal?
     3. What do we observe as the amplitude increases?
 
 2. Sketch a diagram of a wave varying with time and mark on it the amplitude and time period.
