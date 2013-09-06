@@ -2,8 +2,6 @@
 title: Physics 1
 layout: default
 ---
-# Physics 1
-
 1. Rearrange the following equation in order to calculate speed.
 $$ distance = speed \times time $$
 

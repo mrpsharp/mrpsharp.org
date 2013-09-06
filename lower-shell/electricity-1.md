@@ -2,8 +2,6 @@
 title: Electricity 1
 layout: default
 ---
-# Electricity 1
-
 1. Explain why metals are good conductors of electricity
 
 1. Give the S.I. units for time, electrical current and charge.

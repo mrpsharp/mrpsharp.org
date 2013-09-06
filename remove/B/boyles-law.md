@@ -2,8 +2,6 @@
 title: Boyle's Law
 layout: default
 ---
-# Boyle's Law
-
 An experiment to test Boyle's law was carried out and returned the following readings:
 
 *p* / kPa | *V* / cm<sup>3</sup>

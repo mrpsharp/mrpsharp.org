@@ -2,8 +2,6 @@
 title: Remove B
 layout: default
 ---
-# Remove B
-
 * ljlkj
 {:toc}
 

@@ -42,7 +42,6 @@ layout: default
 ---
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <style>h2:before {content: "";}"</style>
-<h1>Physics Department Cover</h1>
 """
 
 cover_html.write(header)

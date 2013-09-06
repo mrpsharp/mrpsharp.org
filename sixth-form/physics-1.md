@@ -2,8 +2,6 @@
 title: Physics 1
 layout: default
 --- 
-# Physics 1
-
 1. Two resistors in parallel have a combined resistance given by the equation: 
 
     $$ \frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} $$ 

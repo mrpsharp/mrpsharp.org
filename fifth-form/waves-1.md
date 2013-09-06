@@ -2,8 +2,6 @@
 title: Waves 1
 layout: default
 ---
-# Waves 1
-
 1. Name four different waves and answer the following questions:
     1. What is it that is oscillating?
     2. Is the wave transverse of longitudinal?

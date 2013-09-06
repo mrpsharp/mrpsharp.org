@@ -1,9 +1,7 @@
 ---
-title: Remove
+title: Remove Physics
 layout: default
 ---
-# Remove Physics
-
 Choose route:
 
 <div class="clearfix">

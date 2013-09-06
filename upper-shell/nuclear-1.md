@@ -2,8 +2,6 @@
 title: Nuclear 1
 layout: default
 ---
-# Nuclear 1
-
 1. The atoms \\(^{14}_7\\)N and \\(^{15}_{7}\\)N are both isotopes of nitrogen.  Give one difference and one similarity between the nuclei.
 
 1. The diagram shows the arrangement of the Geiger Marsden experiment.

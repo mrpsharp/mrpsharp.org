@@ -1,7 +1,6 @@
 ---
-title: 4-Period Physics
+title: 4-period Sixth Form Physics
 layout: default
 ---
-# 4-period Sixth Form Physics
-
 ## Materials
+* [Hooke's Law Spreadsheet Exercise](/excel/simple_tables_and_graphs.html)

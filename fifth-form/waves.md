@@ -2,8 +2,6 @@
 title: Waves I
 layout: default
 ---
-# Waves I
-
 ## Wave concepts
 * Information and energy carried by waves or particles
 * No net movement of the medium in a wave
