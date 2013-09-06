@@ -28,7 +28,7 @@ while done != True:
 
 
 cover_file = open('cover.json','w')
-json.dump(cover, cover_file)
+json.dump(cover, cover_file, indent=3)
 cover_file.close()
 
 # Create stats json for https://google-developers.appspot.com/chart/interactive/docs/gallery/columnchart
