@@ -36,8 +36,7 @@ hr {
 img {
     max-width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1em auto 1em;
 }
 
 fieldset {
@@ -303,8 +302,12 @@ table tbody + tbody {
 	    content: "";
 	}
 
-    ol > li {
+    ol ol li {
     page-break-inside:avoid;
+    }
+
+    .dontbreak {
+        page-break-inside: avoid;
     }
 }
 
