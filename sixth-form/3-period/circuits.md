@@ -2,21 +2,22 @@
 title: Solving circuits
 layout: default
 ---
-1. A simple potential divider circuit is made as shown below.
+1. &nbsp;
+
+	1.A simple potential divider circuit is made as shown below.
 	![circuit2](img/circuit2.png)
 	The resistances of R1 and R2 are both 10 k&Omega;.
-	1. Show that the curernt through the circuit is 0.6 A.
-	2. Calculate the potential difference across the bottom resistor, R2.
-	A voltmeter is now added in parallel with the bottom resistor. The reading on the voltmeter is 
-only 5.5 volts – less than the expected value. This is because the voltmeter has a finite 
-resistance and therefore some current flows through the voltmeter.
+		1. Show that the curernt through the circuit is 0.6 A.
+		2. Calculate the potential difference across the bottom resistor, R2.
+	
+	1. A voltmeter is now added in parallel with the bottom resistor. The reading on the voltmeter is only 5.5 volts – less than the expected value. This is because the voltmeter has a finite resistance and therefore some current flows through the voltmeter.
 	![circuit2a](img/circuit2a.png)
-	1. Calculate the potential difference across the top resistor (R1) with the voltmeter connected.
-	1. Hence, calculate the current flowing through R1.
-	1. Calculate the current through R2.
-	1. Hence, calculate the resistance of the voltmeter.
+		1. Calculate the potential difference across the top resistor (R1) with the voltmeter connected.
+		1. Hence, calculate the current flowing through R1.
+		1. Calculate the current through R2.
+		1. Hence, calculate the resistance of the voltmeter.
 	1. A similar potential divider is now used to provide the correct voltage for an LED (Light 
-Emitting Diode) although the resistors have lower values and the resistors are not the same 
+	Emitting Diode) although the resistors have lower values and the resistors are not the same 
 as each other.
 	![circuit2b](img/circuit2b.png)
 	If the LED requires an operating voltage of 2 volts and a current of 20 mA, calculate a suitable 
