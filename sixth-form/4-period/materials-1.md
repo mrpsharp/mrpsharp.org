@@ -15,7 +15,7 @@ mass of 1.5 kg is hung on the end of it.
 3. Two springs are connected side by side, connected by a horizontal bar
 at top and bottom. A mass of 500g is hung from the centre of the bar
 so that the force is distributed equally over the two bars. The spring
-constant is equal to 8 30 Nm<sup>-1</sup>.
+constant is equal to 8 Nm<sup>-1</sup>.
     1. Calculate the total downward force.
     1. Calculate the downwards force on each spring.
     1. Hence, calculate the extension of each spring.
