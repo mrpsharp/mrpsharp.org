@@ -8,7 +8,7 @@ layout: default
 	1. Given that the charging voltage is 30 V, calculate the capacitance of the capacitor
 	1. If the capacitor discharges in 20ms, calculate the average current of discharge.
 
-1. A capacitor can be charged using a constant current source.  This is done to a 22 &micro;F capacitor and a high resistance voltmeter attached to the capacitor registers 74 mV.  For how long was the constant current source charging the capacitor?
+1. A capacitor can be charged using a constant current source of 8 mA.  This is done to a 22 &micro;F capacitor and a high resistance voltmeter attached to the capacitor registers 740 mV.  For how long was the constant current source charging the capacitor?
 
 1. A (discharged) capacitor is joined in series with a resistor, a low resistance ammeter, a switch and a 12V battery.
 	1. Draw a circuit diagram for this arrangement.

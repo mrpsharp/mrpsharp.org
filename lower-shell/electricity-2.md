@@ -17,7 +17,7 @@ layout: default
 	The number of cells is increased and the voltage and current are measured.  Below is a copy of the piece of paper with the student's results.  
     ![](img/resistanceData.jpg)
     1. Put the data collected into a proper table and then plot a graph of V against I.
-    2. Do you think any of the data are anomilies.  What do you think could have happened?
+    2. Do you think any of the data are anomalies.  What do you think could have happened?
     2. Explain whether the resistor obeys Ohm's law.
     3. By taking a reading of V and I *off the best fit line*, calculate the resistance of the resistor.
 	
