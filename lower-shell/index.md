@@ -12,3 +12,4 @@ You may also want to check out the following:
 
 ## Electricity
 * [Electricity 1](electricity-1.html): Charge, current and circuits.
+* [Electricity 2](electricity-2.html): Voltage and resistance
