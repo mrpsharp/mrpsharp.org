@@ -309,6 +309,10 @@ table tbody + tbody {
     .dontbreak {
         page-break-inside: avoid;
     }
+    
+    img {
+        page-break-inside: avoid;
+    }
 }
 
 /* ==========================================================================
