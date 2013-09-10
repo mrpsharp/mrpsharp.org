@@ -6,7 +6,7 @@ For this exercise you may need a periodic table.  If you are online try [WebElem
 
 1. The image below shows a spark counter. When a radioactive source is brought near, sparks are produced in the gap between the gauze and the wire.
     ![](img/sparkcounter.png)
-    1. Explain what the radiation does to produce these sparks.
+    1. Explain what the radiation does to produce these sparks. 
     2. The source is moved about 5cm above the gauze and the sparking stops. Explain what you can conclude about the type of radiation.
 
 1. An alpha source is held near to a positively charged electroscope (shown below). The leaf falls. Explain why.
@@ -17,9 +17,9 @@ For this exercise you may need a periodic table.  If you are online try [WebElem
     Work out which types of radiation are emitted by each source
 
 1. Copy and complete the following examples of radioactive decay to include the nucleon and proton numbers of the daughter nucleus.
-    ![](decays.png)
+    ![](img/decays.png)
 
 1. Neptunium-240 decays to Actinium-228 by a series of emissions of alpha and beta particles.  How many of each were emitted?
 
 1. It is suggested that some particles may decay by double beta decay, i.e. emitting two beta particles simultaneously.  An example is give below. Copy and complete the equation to include the missing nucleon and proton numbers.
-    ![](doublebeta.png)
+    ![](img/dblbeta.png)
