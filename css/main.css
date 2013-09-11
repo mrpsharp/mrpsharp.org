@@ -248,6 +248,10 @@ table tbody + tbody {
   border-top: 2px solid #dddddd;
 }
 
+table tr.greyed {
+	background: #E6E6E6;
+}
+
 
 
 /* ==========================================================================
