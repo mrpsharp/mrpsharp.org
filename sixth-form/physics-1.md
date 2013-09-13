@@ -6,10 +6,10 @@ layout: default
 
     $$ \frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} $$ 
 
-    1.   Show algebraically that this can be re-written to give the expression (known as the 	“the product over the sum”):
+    1.   Show algebraically that this can be re-written to give the expression (known as "the product over the sum"):
     $$ R_{total} = \frac{R_1 R_2}{R_1 + R_2} $$
 
-    2. It is suggested this “product over sum” rule may be extended to three resistors as follows:
+    2. It is suggested this "product over sum" rule may be extended to three resistors as follows:
     $$ R_{total} = \frac{R_1 R_2 R_3}{R_1 + R_2 + R_3} $$
     *Without using algebra* describe whether or not you think this is likely to be correct.
 
@@ -19,7 +19,7 @@ layout: default
     * 1\.3 Angstrom
     * 12,800 km
     * 2\.5 nm
-    * 10 µm
+    * 10 &micro;m
 	
 	1. Re-write each of these distances in standard form to three significant figures.
 	2. Next to each distance write which of the following most matches the scale:
@@ -37,3 +37,4 @@ layout: default
 	![](img/physics-1-graphs.png)
 	
 1. For each of the graphs above, give and example of two quantities which are related in this way.
+
