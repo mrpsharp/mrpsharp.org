@@ -2,86 +2,16 @@
    {
       "Week": "1", 
       "Lesson": "5", 
-      "Coverer": "CJRU", 
+      "Day": "Wed", 
       "Term": "Play", 
-      "Day": "Wed"
+      "Coverer": "CJRU"
    }, 
    {
       "Week": "1", 
       "Lesson": "6", 
-      "Coverer": "External", 
-      "Term": "Play", 
-      "Day": "Wed"
-   }, 
-   {
-      "Week": "1", 
-      "Lesson": "7", 
-      "Coverer": "External", 
-      "Term": "Play", 
-      "Day": "Wed"
-   }, 
-   {
-      "Week": "1", 
-      "Lesson": "1", 
-      "Coverer": "KAPW", 
-      "Term": "Play", 
-      "Day": "Thu"
-   }, 
-   {
-      "Week": "1", 
-      "Lesson": "2", 
-      "Coverer": "BC", 
-      "Term": "Play", 
-      "Day": "Thu"
-   }, 
-   {
-      "Week": "1", 
-      "Lesson": "3", 
-      "Coverer": "BC", 
-      "Term": "Play", 
-      "Day": "Thu"
-   }, 
-   {
-      "Week": "1", 
-      "Lesson": "5", 
-      "Coverer": "CJRU", 
-      "Term": "Play", 
-      "Day": "Thu"
-   }, 
-   {
-      "Week": "1", 
-      "Lesson": "1", 
-      "Coverer": "LT", 
-      "Term": "Play", 
-      "Day": "Fri"
-   }, 
-   {
-      "Week": "1", 
-      "Lesson": "2", 
-      "Coverer": "LT", 
-      "Term": "Play", 
-      "Day": "Fri"
-   }, 
-   {
-      "Week": "1", 
-      "Lesson": "4", 
-      "Coverer": "KAPW", 
-      "Term": "Play", 
-      "Day": "Fri"
-   }, 
-   {
-      "Week": "1", 
-      "Lesson": "2", 
       "Day": "Wed", 
       "Term": "Play", 
-      "Coverer": "KAPW"
-   }, 
-   {
-      "Week": "1", 
-      "Lesson": "3", 
-      "Day": "Wed", 
-      "Term": "Play", 
-      "Coverer": "BC"
+      "Coverer": "External"
    }, 
    {
       "Week": "1", 
@@ -92,37 +22,107 @@
    }, 
    {
       "Week": "1", 
+      "Lesson": "1", 
+      "Day": "Thu", 
+      "Term": "Play", 
+      "Coverer": "KAPW"
+   }, 
+   {
+      "Week": "1", 
+      "Lesson": "2", 
+      "Day": "Thu", 
+      "Term": "Play", 
+      "Coverer": "BC"
+   }, 
+   {
+      "Week": "1", 
       "Lesson": "3", 
-      "Day": "Sat", 
+      "Day": "Thu", 
+      "Term": "Play", 
+      "Coverer": "BC"
+   }, 
+   {
+      "Week": "1", 
+      "Lesson": "5", 
+      "Day": "Thu", 
       "Term": "Play", 
       "Coverer": "CJRU"
    }, 
    {
       "Week": "1", 
-      "Lesson": "4", 
-      "Day": "Sat", 
+      "Lesson": "1", 
+      "Day": "Fri", 
       "Term": "Play", 
+      "Coverer": "LT"
+   }, 
+   {
+      "Week": "1", 
+      "Lesson": "2", 
+      "Day": "Fri", 
+      "Term": "Play", 
+      "Coverer": "LT"
+   }, 
+   {
+      "Week": "1", 
+      "Lesson": "4", 
+      "Day": "Fri", 
+      "Term": "Play", 
+      "Coverer": "KAPW"
+   }, 
+   {
+      "Week": "1", 
+      "Lesson": "2", 
+      "Term": "Play", 
+      "Day": "Wed", 
+      "Coverer": "KAPW"
+   }, 
+   {
+      "Week": "1", 
+      "Lesson": "3", 
+      "Term": "Play", 
+      "Day": "Wed", 
+      "Coverer": "BC"
+   }, 
+   {
+      "Week": "1", 
+      "Lesson": "7", 
+      "Term": "Play", 
+      "Day": "Wed", 
+      "Coverer": "External"
+   }, 
+   {
+      "Week": "1", 
+      "Lesson": "3", 
+      "Term": "Play", 
+      "Day": "Sat", 
+      "Coverer": "CJRU"
+   }, 
+   {
+      "Week": "1", 
+      "Lesson": "4", 
+      "Term": "Play", 
+      "Day": "Sat", 
       "Coverer": "HP"
    }, 
    {
       "Week": "1", 
       "Lesson": "5", 
-      "Day": "Sat", 
       "Term": "Play", 
+      "Day": "Sat", 
       "Coverer": "HP"
    }, 
    {
       "Week": "3", 
       "Lesson": "2", 
+      "Coverer": "LT", 
       "Term": "Play", 
-      "Day": "Thu", 
-      "Coverer": "LT"
+      "Day": "Thu"
    }, 
    {
       "Week": "3", 
       "Lesson": "3", 
+      "Coverer": "BC", 
       "Term": "Play", 
-      "Day": "Thu", 
-      "Coverer": "BC"
+      "Day": "Thu"
    }
 ]

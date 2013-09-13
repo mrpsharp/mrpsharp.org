@@ -15,3 +15,4 @@ You may also want to check out the following:
 ## Waves
 * [Waves 1](waves-1.html): Naming the parts of the wave and simple calculations.
 * [Waves 2](waves-2.html): The speed of waves.
+* [Waves 3](waves-3.html): Sound waves
