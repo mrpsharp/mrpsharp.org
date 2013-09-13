@@ -4,7 +4,7 @@ layout: default
 ---
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <style>h2:before {content: "";}"</style>
-<h2>Play 2013</h2>Total this term: 16
+<h2>Play 2013</h2>Total this term: 18
 <div id="staff" style="width: 900px; height: 500px;"></div>
 <div id="week" style="width: 900px; height: 500px;"></div>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -12,7 +12,7 @@ layout: default
   google.load("visualization", "1", {packages:["corechart"]});
   google.setOnLoadCallback(drawCharts);
   function drawStaff() {
-    var data = google.visualization.arrayToDataTable([["Staff", "Number"], ["CJRU", 3], ["PS", 0], ["KAPW", 3], ["BC", 3], ["HP", 2], ["LT", 2], ["External", 3]]);
+    var data = google.visualization.arrayToDataTable([["Staff", "Number"], ["CJRU", 3], ["PS", 0], ["KAPW", 3], ["BC", 4], ["HP", 2], ["LT", 3], ["External", 3]]);
 
     var options = {
       title: 'Staff Cover',
@@ -24,7 +24,7 @@ layout: default
     var chart = new google.visualization.ColumnChart(document.getElementById('staff'));
     chart.draw(data, options);
   }function drawWeeks() {
-    var data = google.visualization.arrayToDataTable([["Week", "Number"], [1, 16], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0], [7, 0], [8, 0], [9, 0], [10, 0], [11, 0], [12, 0], [13, 0], [14, 0]]);
+    var data = google.visualization.arrayToDataTable([["Week", "Number"], [1, 16], [2, 0], [3, 2], [4, 0], [5, 0], [6, 0], [7, 0], [8, 0], [9, 0], [10, 0], [11, 0], [12, 0], [13, 0], [14, 0]]);
 
     var options = {
       title: 'Weekly Cover',
