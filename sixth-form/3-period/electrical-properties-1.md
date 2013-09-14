@@ -2,7 +2,7 @@
 title: Electrical Properties 1
 layout: default
 ---
-1. A resistor passes a current of 68 &plusmn; 5 mA and when subjected to a potential difference of 5 &plusmn; 0.1 V.  Calculate the resistor's resistance quoting the uncertainty.
+1. A resistor passes a current of 68 &plusmn; 5 mA when subjected to a potential difference of 5 &plusmn; 0.1 V.  Calculate the resistor's resistance quoting the uncertainty.
 
 1. The heating element of an electric toaster is typically made of nichrome wire (an alloy of nickel and chromium). As current passes through the wires, the wires heat up, thus toasting the toast. Estimate the overall resistance of a heating element which is 220 cm long and consists of nichrome wire with a diameter of 0.56 mm. The resistivity of nichrome is 110x10<sup>-8</sup> &Omega; m.
 
