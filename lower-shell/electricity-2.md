@@ -13,7 +13,9 @@ layout: default
 	1. What is the average current in the circuit?
 
 1. A resistor is placed in a circuit with a cell and the current measured with a voltmeter and ammeter.
+
 	1. Draw such a circuit.
+
 	The number of cells is increased and the voltage and current are measured.  Below is a copy of the piece of paper with the student's results.  
     ![](img/resistanceData.jpg)
     1. Put the data collected into a proper table and then plot a graph of V against I.
