@@ -87,16 +87,6 @@ ol ol ol li {
     list-style-type: lower-roman;
 }
 
-/* H2 numbering */
-
-h1 { counter-reset: mysection; }
-
-h2:before
-    {
-    counter-increment:mysection;
-    content:counter(mysection) " ";
-    }
-
 .header {
 	width: 100%;
 	background-color: #cfcfcf;
