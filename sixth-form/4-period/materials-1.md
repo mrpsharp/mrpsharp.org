@@ -5,10 +5,11 @@ layout: default
 1. A spring of spring constant 30 Nm<sup>-1</sup> is stretched by 3 cm. Calculate
 the force on the spring.
 
-2. Two springs of spring constant 15 Nm<sup>-1</sup> are connected end to end. A
+2. Two springs of spring constant 150 Nm<sup>-1</sup> are connected end to end. A
 mass of 1.5 kg is hung on the end of it.
+    1. Sketch the arrangement of springs.
     1. Calculate the force acting on the system.
-    1. Calculate the force acting on each spring.
+    1. What the force acting on each spring.
     1. Calculate the extension of each individual spring.
     1. Hence, calculate the spring constant of the whole system.
     
@@ -16,6 +17,7 @@ mass of 1.5 kg is hung on the end of it.
 at top and bottom. A mass of 500g is hung from the centre of the bar
 so that the force is distributed equally over the two bars. The spring
 constant is equal to 8 Nm<sup>-1</sup>.
+    1. Sketch the arrangement of springs.
     1. Calculate the total downward force.
     1. Calculate the downwards force on each spring.
     1. Hence, calculate the extension of each spring.

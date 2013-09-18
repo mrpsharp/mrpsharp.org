@@ -71,9 +71,9 @@ body {
 }
 
 
-h1, h2, h3 {
+/*h1, h2, h3 {
 	font-family: "Open Sans", sans-serif;
-}
+}*/
 
 ol > li {
 	list-style-type: decimal;
@@ -92,6 +92,8 @@ ol ol ol li {
 	background-color: #cfcfcf;
 	padding-top: 0 em;
 	border: 0px;
+    font-family: "Open Sans", sans-serif;
+
 }
 
 .header h1 {
