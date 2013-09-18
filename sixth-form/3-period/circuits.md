@@ -9,8 +9,10 @@ layout: default
 	The resistances of R1 and R2 are both 10 k&Omega;.
 		1. Show that the curernt through the circuit is 0.6 mA.
 		2. Calculate the potential difference across the bottom resistor, R2.
-		1. A voltmeter is now added in parallel with the bottom resistor. The reading on the voltmeter is only 5.5 volts, less than the expected value. This is because the voltmeter has a finite resistance and therefore some current flows through the voltmeter.
+
+		A voltmeter is now added in parallel with the bottom resistor. The reading on the voltmeter is only 5.5 volts, less than the expected value. This is because the voltmeter has a finite resistance and therefore some current flows through the voltmeter.
 	![circuit2a](img/circuit2a.png)
+	1. &nbsp;
 		1. Calculate the potential difference across the top resistor (R1) with the voltmeter connected.
 		1. Hence, calculate the current flowing through R1.
 		1. Calculate the current through R2.
