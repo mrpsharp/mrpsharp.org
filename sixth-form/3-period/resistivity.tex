@@ -1,0 +1,64 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, margin=1cm]{geometry} 
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{changepage}
+
+\title{Resistivity Investigation}
+\author{}
+\date{Due: 27 November 2013}
+\pagestyle{empty}
+
+\begin{document}
+\maketitle \thispagestyle{empty}
+\begin{adjustwidth}{2cm}{2cm}
+This is an investigation to measure the resistivity of a wire, taking uncertainties into account.  The basic procedure is to measure voltage and current for a variety of lengths of wire and record the results.  Then, using the cross-sectional area (calculated from the diameter), the resistance and the ratio $ \frac{l}{A} $ can be calculated.  Since the resistivity is defined in the relation: \[ R = \rho \frac{l}{A} \] a graph of $ R $ against $ \frac{l}{A} $ will have a gradient equal to the resistivity.
+\end{adjustwidth}
+
+\begin{adjustwidth}{0cm}{0.4\textwidth}
+\section{Setting up the spreadsheet}
+At the top of your spreadsheet, before the main data tables, should be a space for constants.  In this instance you need the average diameter you measure and the uncertainty in that diameter.
+
+Your spreadsheet should have columns as shown below.
+\emph{Note: column headings should have labels and units}
+\begin{description}
+    \setlength{\itemsep}{10pt}
+    \item[Length] This is your measurement of the length to a correct and consistent number of decimal places.
+    \item[Uncertainty in length] This is your uncertainty in your length measurement.  \emph{Note: You need to take into account factors beyond the resolution of the ruler}.
+    \item[Voltage] 
+    \item[Uncertainty in Voltage] 
+    \item[Current] 
+    \item[Uncertainty in current] 
+    \item[Resistance] This is the resistance as calculated from voltage and current.
+    \item[Uncertainty in resistance] This is the uncertainty in the resistance, calculated from the uncertainty in voltage and current.
+    \item[\emph{l}/\emph{A}] This is the ratio discussed above.  \emph{Note: as Excel does not deal well with very large values, it is best to divide all the values by a constant power of ten and put it in the column heading.}
+    \item[Uncertainty in \emph{l}/\emph{A}] This is the uncertainty in the ratio, calculated from the uncertainties in \emph{l} and \emph{A}.
+\end{description}
+\newpage
+
+\section{The graph}
+
+You should plot $R$ against $\frac{l}{A}$ as the gradient of this graph will give the resistivity ($\rho$).  Your graph should include the following features:
+\begin{itemize}
+    \item Points unconnected by lines;
+    \item Labelled axis with units;
+    \item Gridlines (to enable reading values off printouts);
+    \item Error bars using the uncertainty values from your spreadsheet;
+    \item A median line of best fit from Excel, with an equation.
+\end{itemize}
+
+\section{Write-up}
+You should write up this investigation to include the following sections:
+\begin{description}
+    \item[Method] How did you go about this experiment?  What steps did you take to reduce the uncertainty in your measurements or other variables influencing the data?
+    \item[Data] Your data presented in a correctly formatted table.
+    \item[Graph] Your graph, correctly formatted.
+    \item[Analysis] This should include a discussion of the fit of the data to the best-fit line and an estimate of the uncertainty of your measurement of $\rho$.
+\end{description}
+
+\section*{Extension}
+The next step in your analysis would be to try fitting lines of different gradients to the data and seeing the range which fall within the error bars.  This can be done by hand on a printout or in Excel.  If you are doing it in Excel the method is to set up two new columns (\emph{max} and \emph{min} with constants for the gradient at the top.  You can then put in an equation to calculate a predicted $R$ for each value of $\frac{l}{A}$ using the formula $y=mx$.  You can then manually vary the value of the gradient to fit it within your error bars.  These gradients should be plotted as lines rather than points as they are models rather than measured data.
+
+
+\end{adjustwidth}
+\end{document}  
