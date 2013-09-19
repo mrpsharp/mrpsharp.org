@@ -28,5 +28,4 @@ layout: default
 1. In one method of measuring the speed *v* of a rifle bullet, the bullet is made to break strips of conducting foil first at *A* then at *B*, where the distance *AB* is *d* as shown.
 	![](img/bullet.png)
 	1. Design an *RC* circuit in which opening a switch as *A* is broken starts the discharge and opening a switch when *B* is broken stops the discharge.  Add a voltmeter which would enable you, if *R* and *C* are known, to find the time taken by the bullet to get from *A* to *B*.
-	1. The experiment is carried out with a 1 &micro;F capacitor and 10 k&Omega; resistor.  The initial voltage is 6.0 V and this falls to 2.8 V during the time it takes for the bullet to travel from *A* to *B*.  The distance *d* is 2m.  Calculate 
-
+	1. The experiment is carried out with a 1 &micro;F capacitor and 10 k&Omega; resistor.  The initial voltage is 6.0 V and this falls to 2.8 V during the time it takes for the bullet to travel from *A* to *B*.  The distance *d* is 2m.  Calculate the speed of the bullet.

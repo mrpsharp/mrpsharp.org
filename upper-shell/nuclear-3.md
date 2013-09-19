@@ -17,4 +17,3 @@ layout: default
 	1. What is meant by the term 'radioisotope'?
 	1. How much xenon will be left at 9.00 am on 18th May?
 
-1. In an experiment involving a radioactive source, a Geiger-Muller tube and a counter, the readings in the table were obtained. The average background count was 20 counts per minute.
