@@ -28,6 +28,7 @@ value for the unknown resistor R.
 	The LED has a potential difference across it of 0.6 V and R1 and R2 have resistances of 2 k&Omega; and 5 k&Omega; respectively.  Calculate:
 	1. The current through R2.
 	1. The current through, and potential difference across, R1. 
+    1. Hence, calculate the current through the LED (assume the voltmeter has infinite resistance).
 
 1. The circuits below all contain combinations of a 1.5 V cell and 10 &Omega; resistors.  In which circuit is the greatest power dissipated? Explain your reasoning.
 	
