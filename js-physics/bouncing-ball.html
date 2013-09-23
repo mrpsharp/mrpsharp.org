@@ -1,0 +1,51 @@
+---
+title: Bouncing Ball
+layout: default
+---
+<canvas id="mycanvas" width="600" height="500" style="border:1px solid black;">
+</canvas>
+
+
+
+<script src="animation.js"></script>
+<script>
+    window.onload = function() {
+        var anim = new Animation("mycanvas");
+        var canvas = anim.getCanvas();
+        var ctx = anim.getContext();
+        var ball = {
+            x: canvas.width / 2,
+            y: 20,
+            vx: 0,
+            vy: 0,
+            r: 20
+        };
+        var gravity = 100;
+        var justChanged = false;
+
+        anim.setStage(function() {
+            ball.y += ball.vy * this.getTimeInterval() / 1000;
+            ball.vy += gravity * this.getTimeInterval() / 1000;
+            // if ball hits ground and has been positive since then change direction
+            if ((ball.y > canvas.height - ball.r) && !justChanged) {
+                ball.vy = -0.9*ball.vy;
+                justChanged = true;
+            }
+            if (ball.y < canvas.height - ball.r) {
+                justChanged = false;
+            }
+
+
+            this.clear();
+            ctx.beginPath();
+            ctx.arc(ball.x, ball.y, ball.r, 0, 2 * Math.PI, false);
+            ctx.fillStyle = "blue";
+            ctx.fill();
+            ctx.strokeStyle = "black";
+            ctx.lineWidth = 2;
+            ctx.stroke();
+        });
+
+        anim.start();
+    };
+</script>
