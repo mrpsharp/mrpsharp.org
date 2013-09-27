@@ -2,6 +2,8 @@
 title: Remove Physics
 layout: default
 ---
+* [Investigation Write-up](investigations.pdf): Information on writing up your investigations
+
 Choose route:
 
 <div class="clearfix">
