@@ -7,7 +7,7 @@ layout: default
 	1.A simple potential divider circuit is made as shown below.
 	![circuit2](img/circuit2.png)
 	The resistances of R1 and R2 are both 10 k&Omega;.
-		1. Show that the curernt through the circuit is 0.6 mA.
+		1. Show that the current through the circuit is 0.6 mA.
 		2. Calculate the potential difference across the bottom resistor, R2.
 
 	1. A voltmeter is now added in parallel with the bottom resistor. The reading on the voltmeter is only 5.5 volts, less than the expected value. This is because the voltmeter has a finite resistance and therefore some current flows through the voltmeter.
