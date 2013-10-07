@@ -14,4 +14,8 @@ You may also want to check out the following:
 *  [Nuclear 1](nuclear-1.html): The Geiger Marsden experiment and isotopes.
 * [Nuclear 2](nuclear-2.html): Decay equations.
 * [Nuclear 3](nuclear-3.html): Background Radiation and half-life.
-* [Nuclear Fission](nuclear-fission.html): Nuclear fission calculation
+* [Nuclear Fission](nuclear-fission.html): Nuclear fission calculation.
+* [Energy Resources Research](energy-resources.html): Research into the UK's energy resources.
+
+## Electromagnetic Induction
+* [Circuit Solving](circuits.html)
