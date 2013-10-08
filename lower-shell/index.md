@@ -14,3 +14,6 @@ You may also want to check out the following:
 * [Electricity 1](electricity-1.html): Charge, current and circuits.
 * [Electricity 2](electricity-2.html): Voltage and resistance
 * [Electricity 3](electricity-3.html): Resistance and Ohm's law
+
+## Magnetism
+* [Magnetism 1](magnetism-1.html): Magnetic field lines and types of materials.
