@@ -1,0 +1,52 @@
+\documentclass[a4paper]{article}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{parskip}
+
+\title{Coupled Oscillations}
+\date{}
+\author{}
+\tikzstyle{spring}=[thick,decorate,decoration={zigzag,pre length=0.1cm,post
+      length=0.1cm,segment length=6}]
+
+\begin{document}
+\maketitle
+Begin by sketching the coupled spring system.
+\section*{Solving the equations}
+You are going to solve for the motion of this system as follows.
+\begin{enumerate}
+    \item Write an equation for the acceleration of mass 1 ($x''_1$) in terms of the spring constant, $k$, the coupling constant, $k_c$, and the positions of the two masses, $x_1$ and $x_2$.
+    \item Repeat this exercise for the accelerations of $x_2$.
+    \item Rearrange the equations above to be of the forms $x''_1 + Ax_1 + Bx_2 = 0$ and $x''_2 + Cx_1 + Dx_2$.  These are second order differential equations.
+    \item By adding and then subtracting the two equations from step 3 get two equations in terms of only $\left(x_1 + x_2\right)$ and $\left(x_1 - x_2\right)$.
+    \item By using the substitutions $q_1 = x_1 + x_2$ and $q_2 = x_1 - x_2$ write the equations in the form: \[q''_1 + \omega_1^2q_1 = 0 \] \[ q''_2 + \omega_2^2q_2 = 0 \]. How would you describe this motion in words?
+    \item Using your knowledge of differential equations you should be agree that the solutions to these two equations are:
+        \[ q_1 = C_1\cos{\omega_1 t} + C_2\sin{\omega_1 t} \]
+        \[ q_2 = C_3\cos{\omega_2 t} + C_4\sin{\omega_2 t} \]
+    \item Write your definitions of $q_1$ and $q_2$ to get $x_1$ and $x_2$ in terms of $q_1$ and $q_2$.  Substitute in the equations above to get $x_1$ and $x_2$ in terms of sines and cosines.
+    \item By considering the following boundary conditions you should be able to simplify your equations:
+        \begin{align*}
+            x_1(0) & = A & x'_1(0) & = 0 \\
+            x_2(0) &= B & x'_2(0) &= 0\\
+        \end{align*}
+    \item You should now have equations, each with two terms on the right.  These are the solutions to the equations - well done!
+\end{enumerate}
+\section*{Exploring the solution}
+We are going to look at particular boundary conditions as follows.
+\subsection*{Symmetric}
+For the solution both $x_1$ and $x_2$ when the initial conditions are $x_1(0)=x_2(0)=A$.  Describe the motion by thinking about how the relative positions of $x_1$ and $x_2$ change.
+
+\subsection*{Asymmetric}
+For this solution the initial condition is that $B=-A$.  Again describe the motion.
+
+\subsection*{General for one displaced mass}
+For this solution, the initial condition is that $x_1(0) = A$ and $x_2(0) = 0$.  Substitute these values into your solutions.
+
+Now, use the following relations to re-write your solutions as products rather than sums:
+    \[ \cos{\alpha}\cos{\beta} = \frac{1}{2}\left(\cos{\alpha-\beta} + \cos{\alpha+\beta}\right) \]
+    \[ \sin{\alpha}\sin{\beta} = \frac{1}{2}\left(\cos{\alpha-\beta} - \cos{\alpha+\beta}\right) \]
+
+Can you describe this motion?
+
+\end{document}
