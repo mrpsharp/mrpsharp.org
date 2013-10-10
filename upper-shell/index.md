@@ -19,3 +19,4 @@ You may also want to check out the following:
 
 ## Electromagnetic Induction
 * [Circuit Solving](circuits.html)
+* [Electrical Quantities](electrical-quantities.html): Symbols, definitions and units for the common electrical quantities.
