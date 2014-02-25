@@ -5,9 +5,10 @@
 
 # THANKS
 
-    Gitub Pages -- for hosting everything!
+    
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr
+    linode, jekyll

@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 from __future__ import print_function
 import sys,json,collections
 
@@ -84,8 +84,8 @@ cover_html.write(""");
 
     var options = {
       title: 'Staff Cover',
-      hAxis: {title: 'Staff'},
-      vAxis: {title: 'Number'},
+      hAxis: {title: 'Staff', minValue: '0'},
+      vAxis: {title: 'Number', minValue: '0'},
       legend: {position: 'none'}
     };
 
