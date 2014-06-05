@@ -2,3 +2,4 @@ name: Mr P Sharp
 pygments: true
 host: mrpsharp.org
 port: 8080
+markdown: kramdown
