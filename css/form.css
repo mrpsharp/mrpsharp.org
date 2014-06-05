@@ -18,6 +18,10 @@ label {
     width:400px;
 }
 
+input {
+    text-align: right;
+}
+
 input:focus, textarea:focus {
     /* To give a little highlight on active elements */
     border-color: #000;
