@@ -14,7 +14,8 @@ form div + div {
 label {
     /* To make sure that all label have the same size and are properly align */
     display: inline-block;
-    text-align: right;
+    text-align: left;
+    width:400px;
 }
 
 input:focus, textarea:focus {
