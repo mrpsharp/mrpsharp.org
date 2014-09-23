@@ -1,5 +1,5 @@
 name: Mr P Sharp
 pygments: true
-host: mrpsharp.org
+host: ganymede.mrpsharp.org
 port: 8080
 markdown: kramdown
