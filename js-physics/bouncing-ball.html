@@ -5,6 +5,7 @@ layout: default
 <canvas id="mycanvas" width="600" height="500" style="border:1px solid black;">
 </canvas>
 
+<form>
 
 
 <script src="animation.js"></script>
@@ -20,7 +21,7 @@ layout: default
             vy: 0,
             r: 20
         };
-        var gravity = 500;
+        var gravity = 5000;
         var justChanged = false;
 
         anim.setStage(function() {
@@ -29,7 +30,7 @@ layout: default
             ball.x += ball.vx * this.getTimeInterval() / 1000;
             // if ball hits ground and has been positive since then change direction
             if ((ball.y > canvas.height - ball.r) && !justChanged) {
-                ball.vy = -0.9*ball.vy;
+                ball.vy = -0.95*ball.vy;
                 justChanged = true;
             }
             if (ball.y < canvas.height - ball.r) {

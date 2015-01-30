@@ -108,17 +108,18 @@ ol ol ol li {
 	margin: 0;
 	padding: 1.5em 1em;
 	font-size: 1em;
-	font-weight: normal;
 	font-style: normal;
 	color: #666666;
 	text-align: left;
-	text-transform: capitalize;
-	line-height: inherit;
+    text-decoration: none;
 }
 
+.header a {
+    text-decoration: none;
+}
 
 .header a:hover {
-	/*text-decoration: underline;*/
+	text-decoration: underline;
 }
 
 .centerblock {
