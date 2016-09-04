@@ -1,26 +1,47 @@
+---
+---
 <!DOCTYPE html>
-<html>
+<html dir="ltr" lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mr P Sharp</title>
-  <link rel="stylesheet" href="style.css">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="combo.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
+	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
 </head>
 <body>
+  <div id="main">
 
-  <h1>Welcome to mrpsharp.org</h1>
-
- <div id="text-content">
-   ## Contents
-   * [French Revolutionary Time](time/)
-   #### Javascript Physics
-   * [Counters](counters/)
-   ### Misc Downloads
-   * [Graph Paper to Download](graph-paper.pdf)
+    <nav><ul>
+      {% for node in site.sections  %}
+        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+      {% endfor %}
+    </ul></nav>
 
 
+    {% for page in site.sections  %}
+      {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
+      <div id="{{id}}" class="section p-{{id}}">
+        <div class="container {{ page.style }}">
+          {{ page.content }}
+        </div>
+      </div>
+    {% endfor %}
+
+
+    <div id="footer" class="section text-white">
+      <div class="container">
+        {% capture foottext %} {% include footer.md %} {% endcapture %}
+        {{ foottext | markdownify }}
+      </div>
+    </div>
   </div>
-  <script type="text/javascript" src="marked.min.js"></script>
-  <script type="text/javascript" src="common.js"></script>
+
+{% include analytics.html %}
 </body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="site.js"></script>
 </html>

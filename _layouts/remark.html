@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        font-family: 'Georgia', serif;
+        font-size: 14pt;
+      }
+      h1, h2, h3 {
+        font-family: 'Verdana', sans-serif;
+      }
+      .remark-slide-content h1 { font-size: 2em; }
+      .remark-slide-content h2 { font-size: 1.6em; }
+      .remark-slide-content h3 { font-size: 1em; }
+        .right {
+          float: right;
+          margin-left: 1em;
+        }
+        .left {
+          float: left;
+          margin-right: 3em;
+        }
+        li {
+          padding-bottom: 0.5em;
+        }
+
+        ol li li {
+          list-style-type: lower-alpha;
+        }
+
+        ol li li li {
+          list-style-type: lower-roman;
+        }
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 100%;
+        }
+
+        .small-text {
+          font-size:12pt;
+        }
+        .full-width *{
+          width:100%;
+        }
+      </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+# {{ page.title }}
+{% if page.description %}## {{ page.description }}{% endif %}
+---
+{{ content }}
+</textarea>
+
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+  </body>
+</html>
