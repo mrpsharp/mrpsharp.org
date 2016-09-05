@@ -1,5 +1,24 @@
 ---
 ---
+<script>
+if (location.search) {
+  console.log("parsing GET....")
+  var goCodes = {
+      'el2hw1': 'https://westminsterschool-my.sharepoint.com/personal/peter_sharp_westminster_org_uk/_layouts/15/guestaccess.aspx?guestaccesstoken=l0YGndfu4zxX1f5fuyuwWq5U7FWQ%2bWcPBfn36o9UpE0%3d&docid=0a62f8e054af8434385a3a1c6d95a6695&rev=1',
+  };
+  var queryDict = {};
+  location.search.substr(1).split("&").forEach(function(item) {
+      queryDict[item.split("=")[0]] = item.split("=")[1]
+  });
+  var shortCode = queryDict['go'];
+  if (goCodes[shortCode]) {
+      document.write('going to new location....');
+      document.location.href = goCodes[shortCode]
+  } else if (shortCode) {
+      alert('Error: shortcode undefined')
+  }
+}
+</script>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
@@ -43,5 +62,4 @@
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="site.js"></script>
-<script src="go.js"></script>
 </html>
