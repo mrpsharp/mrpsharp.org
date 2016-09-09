@@ -1,36 +1,51 @@
----
+title:              mrpsharp.org
 
-port: 4000
-host: 0.0.0.0
-safe: false
+# Versioning
+current_version: 1.5.0
+foundation_version: 6.0.0
 
-
-### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
-permalink: /:title ## disables post output
-timezone: null
-lsi: false
-markdown: kramdown
+author:
+  name:             Mr P Sharp
 
 
-### content configuration ###
-title:       "Mr P Sharp"
-google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+# Dependencies
+markdown:           kramdown
+#Syntax Highlighter
+#highlighter:        pygments
 
-### Collection definition
-collections:
-  - sections
+# Permalinks
+permalink:          pretty
+
+# Server
+# source:             ./source
+# destination:        ./static
+
+baseurl:            ""
+url:                http://www.mrpsharp.org
+
+# exclude this stuff when building the static site
+exclude:            [
+                      '.gitignore',
+                      'README.md',
+                      'Gemfile',
+                      'Gemfile.lock',
+                      'makefile',
+                    ]
+
+## CUSTOM VARS
+
+#ga_id:             ##-########-###
+site_name:          Foundation-Jekyll
+site_description :  The awesomeness of Foundation 6... powered by Jekyll
+site_copyright:     Copyright (c) 2016 @aaronkwhite
+site_url:           http://yoururl.com
+site_email:         site@domain.com
+site_phone:         (555) 555-1234
 
 
-### template colors, used site-wide via css ###
-colors:
-  black:     '#111111'
-  white:     '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125'
-  turquoise: '#0fbfcf'
 
-kramdown:
-  auto_ids:  false
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          ./assets/stylesheets
+  style:            :compressed

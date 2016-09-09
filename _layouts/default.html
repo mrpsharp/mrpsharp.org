@@ -1,0 +1,40 @@
+{% if page.go %}
+<script>
+if (location.search) {
+  console.log("parsing GET....")
+  var goCodes = {
+    {% assign isFirst = true %}{% for go in site.data.go %}{% unless isFirst %},
+    {% endunless %}'{{ go.shortCode }}': '{{ go.url }}'{% assign isFirst = false %}{% endfor %}
+  };
+  var queryDict = {};
+  location.search.substr(1).split("&").forEach(function(item) {
+      queryDict[item.split("=")[0]] = item.split("=")[1]
+  });
+  var shortCode = queryDict['go'];
+  if (goCodes[shortCode]) {
+      document.write('going to new location....');
+      document.location.href = goCodes[shortCode]
+  } else if (shortCode) {
+      alert('Error: shortcode undefined')
+  }
+}
+</script>
+{% endif %}
+<!DOCTYPE html>
+<html class="no-js">
+  {% include head.html %}
+  <body>
+
+    {% include header.html %}
+
+    <main>
+      <div class="column row collapse">
+        <h1>{{ page.title }}</h1>
+      </div>
+      <div class="row column collapse">{{ content }}</div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+</html>
