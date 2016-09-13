@@ -1,4 +1,5 @@
 _site
+.sass-cache
 mrpsharp.github.io.esproj
 mrpsharp.esproj
 # Latex files
