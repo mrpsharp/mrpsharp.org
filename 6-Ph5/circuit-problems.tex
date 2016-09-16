@@ -1,0 +1,144 @@
+\documentclass[11pt]{exam}
+
+\usepackage[a4paper]{geometry}
+\usepackage[pdfusetitle]{hyperref}
+
+\usepackage[utf8]{inputenc}
+\usepackage{palatino}
+\setcounter{secnumdepth}{0}
+
+\usepackage{siunitx}
+\usepackage[european,siunitx]{circuitikz}
+
+\title{Solving Circuits}
+\author{}\date{}
+
+\begin{document}
+\section{Solving Circuits}
+\pagestyle{empty}
+\begin{questions}
+
+\question In each of the questions below use Kirchoff's Laws to calclate the missing currents and potential differences.
+\begin{parts}
+    \part 
+    \hfill\break \begin{circuitikz}
+    \draw (7,0) to[battery] (0,0)
+    to [short, i=\SI{3}{\ampere}] (0,-2)
+    to [R] (3,-2) to [short, i=\SI{2}{\ampere}] (3,-1.5) to [R] (6,-1.5) to [short, i=$I_1$] (6,-2)
+    (3,-2) to [short, i=$I_2$] (3,-2.5) to [R] (6,-2.5) to (6,-2)
+    to (7,-2) to [short, i=$I_3$] (7,0)
+    ;\end{circuitikz}
+    
+    \part 
+    \hfill\break \begin{circuitikz}
+    \draw (0,0) to[battery, l=\SI{6}{\volt}] (6,0)
+    to (6,-1.5) 
+    to[R, l=\SI{4.5}{\volt}] (3,-1.5)
+    to[R, l=$V_1$] (0,-1.5) to (0,0)
+    ;\end{circuitikz}
+    
+    \part 
+    \hfill\break \begin{circuitikz}
+    \draw (0,0) to[battery, l=\SI{9}{\volt}] (6,0)
+    to (6,-2)
+    to[R,l=$V_2$] (3,-2)
+    to (3,-1) to[R,l=$V_1$] (1,-1) to (1,-2) to (0,-2) to (0,0)
+    (3,-2) to (3,-3) to[R,l=\SI{3}{\volt}] (1,-3) to (1,-2) to (0,-2)
+    ;\end{circuitikz}
+    
+    \newpage
+    
+    \part \hfill\break \begin{circuitikz}
+    \draw (0,0) to[short, i=\SI{3}{\ampere}] (2,0) to [battery, l=\SI{12}{\volt}] (6,0) to[short, i=$I_1$] (8,0)
+    to[R, l=$V_1$] (8,-3) to (6,-3)
+    to (6,-2) to[R,l=\SI{2}{\volt}] (2,-2) to[short, i=$I_2$] (2,-3) to (0,-3) to[R, l=\SI{6}{\volt}] (0,0) 
+    (6,-3) to (6,-4) to[R, l=$V_2$] (2,-4) to[short, i=\SI{1}{\ampere}] (2,-3)
+    ;\end{circuitikz}
+    
+     \part 
+    \hfill\break \begin{circuitikz}
+    \draw (0,0) to[short, i=\SI{0.6}{\ampere}] (3,0)
+    to[battery, l=\SI{9}{\volt}] (6,0) to [short, i=$I_1$] (9,0)
+    to[R, l=$V_3$] (9,-3) to (8,-3) 
+    to (8,-2) to[R, l=\SI{1}{\volt}] (6,-2) to[short, i=$I_2$] (5,-2) to (5,-3) to (4,-3) to (4,-2) to[R, l=\SI{3}{\volt}] (2,-2) to[short, i=$I_3$] (1,-2) to (1,-3) to (0,-3) to[R, l=\SI{2}{\volt}] (0,0)
+    (8,-3) to (8,-4) to[R, l=$V_1$] (6,-4) to[short, i=\SI{0.4}{\ampere}] (5,-4) to (5,-3)
+    (4,-3) to (4,-4) to[R, l=$V_2$] (2,-4) to[short, i=\SI{0.3}{\ampere}] (1,-4) to (1,-3)
+    
+    ;\end{circuitikz}
+    
+    \part \emph{If you have finished...} Calculate the resistance of the individual resistors in (e) above and the effective resistance of the whole circuit.
+\end{parts}
+\newpage
+\question In the circuit below, calculate:
+\begin{parts}
+    \part the p.d. across the \SI{3}{\kilo\ohm} resistor;
+    \part the current through the \SI{5}{\kilo\ohm} resistor;
+    \part the resistance of resistor $R$.
+    
+    \begin{circuitikz}
+        \draw (0,0) to[battery,l=20<\volt>,  i=6<\milli\ampere>] (9,0)
+        to (9,-2) to[R, l^=3<\kilo\ohm>] (4,-2)
+        to (4,-1) to[R=5<\kilo\ohm>,i=$I_1$]  (1,-1) to (1,-2) to (0,-2) to (0,0)
+        (4,-2) to (4,-3) to[R, l=$R$] (1,-3) to (1,-2)
+    ;\end{circuitikz}
+\end{parts}
+
+\question The circuit below includes a silicon diode which has a constant p.d. across it of \SI{0.6}{\volt}. Calculate the current through resistors $P$ and $Q$ and the cell current.
+
+\hspace{10mm}\begin{circuitikz}
+    \draw (0,0) to [R, l=\mbox{$Q=\SI{2.0}{\ohm}$}, i=$i_q$] (6,0)
+    to (6,4) to[R=0.5<\ohm>] (3,4) to[battery, l=1.5<\volt>, i=$i_p+i_q$] (0,4) to (0,0)
+    (0,2) to[Do, i=$i_p$] (2,2) to[R, l=\mbox{$P=\SI{2.0}{\ohm}$}] (6,2);
+\end{circuitikz}
+
+\question Calculate the current through and potential difference across resistor $R$.
+
+  \vspace{5mm}
+  \begin{circuitikz}
+        \draw (0,0) to[R=2.0<\ohm>] (0,2) to[battery, l=6.0<\volt>, i=$I_x$] (0,4) to (5,4) 
+        (0,0) to (5,0) to[R=0.5<\ohm>] (5,2) to[battery, l=3.0<\volt>, i=$I_Y$] (5,4)
+        (2.5,0) to[R,l=\mbox{R=\SI{10.0}{\ohm}}] (2.5,2)
+        (2.5,4) to[short, i=$I_x+I_y$] (2.5,3) to (2.5,2)
+    ;\end{circuitikz}
+      \vspace{5mm}
+        
+
+\newpage
+
+\question Five resistors having the same resistance, \SI{100}{\ohm}, are connected as shown in the circuit below. A battery of \SI{12}{\volt} and negligible internal resistance is connected across the circuit.
+
+\begin{circuitikz}
+    \draw (0,0) to[R] (6,0) to[short, -*] (6,-1)
+    (0,-1) to[R, *-*] (3,-1) node[label = {A}]{} to[R] (6,-1) node[label = below:B]{} to [R] (9,-1)
+    (3,-1) to (3,-2) to[R] (9,-2)
+    (9,-1) to (9,-3) to[battery, l=12<\volt>] (0,-3) to (0,0); 
+\end{circuitikz}
+
+\begin{parts}
+    \part By considering the arrangement of resistors, determine the potential difference between the points A and B.
+    \part Determine the current flowing through each of the resistors and the current through the battery.
+\end{parts}
+
+\question A transmission line can be represented by a chain of resistors. Such a chain has elements which consist of two \SI{3}{\ohm} resistors. These elements are connected to form the chain as shown in the diagram.
+
+\begin{circuitikz}
+    \draw (0,0) to[R=3<\ohm>, o-*] (3,0) to[R, l_=3<\ohm>, -*] (3,-2)
+    (3,0) to[R=3<\ohm>, -*] (6,0) to[R, l_=3<\ohm>, -*] (6,-2)
+    (6,0) to[R=3<\ohm>, -*] (9,0) to[R, l_=3<\ohm>, -*] (9,-2)
+    (9,0) to[R=3<\ohm>, -*] (12,0) to[R, l_=3<\ohm>, -*] (12,-2);
+    \draw (0,-2) to [short, o-] (12,-2);
+    \draw [dashed] (3.5,0.5) -- (3.5,-2.5);
+    \draw [dashed] (6.5,0.5) -- (6.5,-2.5);
+\end{circuitikz}
+
+\begin{parts}
+    \part Calculate the resistance between the terminals of such a chain which consists of:
+    \begin{subparts}
+        \subpart 2 elements only (i.e. 4 resistors);
+        \subpart 3 elements only (i.e. 6 resistors);
+    \end{subparts}
+    \part By calculating the resistance of an infinitely long chain of resistors, show that adding more elements to a chain which is already 3 elements long produces negligible change in resistance.
+\end{parts}
+\end{questions}
+\end{document}
+

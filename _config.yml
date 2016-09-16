@@ -12,6 +12,7 @@ author:
 markdown:           kramdown
 #Syntax Highlighter
 #highlighter:        pygments
+port: 8888
 
 # Permalinks
 permalink:          pretty
