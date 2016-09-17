@@ -9,3 +9,4 @@ layout: default
 
 ## B2 Electricity 
 * [Circuit Problems](circuit-problems.pdf)
+* Homework 1: Practice in Physics 4.12, 4,17, 4.29, 4.33, 4.47, 5.2, 5.5
