@@ -32,3 +32,7 @@ background: -ms-linear-gradient(90deg, rgba(255,191,205,1) 0%, rgba(255,255,255,
 background: linear-gradient(0deg, rgba(255,191,205,1) 0%, rgba(255,255,255,1) 100%); /* w3c */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFBFCD',GradientType=0 ); /* ie6-9 */
 }
+
+body {
+  background: #ffbfcd;
+}
