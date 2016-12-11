@@ -1,0 +1,66 @@
+---
+title: Motion Model
+layout: default
+script: ['https://cdn.plot.ly/plotly-latest.min.js','/motion-model.js']
+---
+<div class="row column">
+  <p>This page uses a fourth order Runge Kutta algorithm to display the motion of a particle. The particle's motion is controlled by the acceleration function. This is written in javascript and returns the value of acceleration as a function of position *x*, time *t* and timestep *dt* (these don't all have to be used!).</p>
+  <p>You can view the Javascript source <a href="http://mrpsharp.org/motion-model-source">here.</a></p>
+</div>
+
+<form>
+  <div class="row">
+    <div class="medium-6 column">
+      <label for="funtion">Acceleration function (must return a single value)</label>
+      <label for="function">function(x,v,t,dt) {</label>
+      <textarea name="function" id="function" cols="30" rows="4">var m = 0.5;
+var k = 30;
+return -(k/m)*x;</textarea>
+      <label for="function">}</label>
+    </div>
+    <div class="medium-6 column">
+      <div class="row">
+        <div class="column small-4">
+            <label>
+            Initial position:
+            <input id='xZero' type="number" value="0.5">
+          </label>
+        </div>
+        <div class="column small-4">
+            <label>
+            Initial velocity:
+            <input id='vZero' type="number" value="0">
+          </label>
+        </div>
+        <div class="column small-4">
+            <label>
+            Total time:
+            <input id='tMax' type="number" value="10">
+          </label>
+        </div>
+      </div>
+      <div class="row column">
+        <label>Choose an example</label>
+        <select name="example" id="exampleSelect">
+          <option value="shm">Simple Harmonic Motion</option>
+          <option value="pendulum">Simple Pendulum</option>
+          <option value="dhm">Damped Harmonic Motion</option>
+          <option value="falling">Falling with air resistance</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="column">
+          <button type="button" class="button" id="compute">Compute</button>
+          <input type="checkbox" id="computeVelocity"><label for="computeVelocity" >Show velocity</label></input>
+        </div>
+      </div>
+      <!-- <div class="row column">
+        <p>Examples: <a href="#" id="shm">simple harmonic motion</a>, <a href="#" id="dhm">damped harmonic motion</a></p>
+      </div> -->
+    </div>
+
+  </div>
+</form>
+<div class="row column">
+  <div id="chart" style="width:100%;height:400px;"></div>
+</div>

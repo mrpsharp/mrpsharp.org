@@ -23,7 +23,7 @@ a, a:visited {
   color: inherit;
 }
 
-body {
+#container {
   background: -moz-linear-gradient(90deg, rgba(255,191,205,1) 0%, rgba(255,255,255,1) 100%); /* ff3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(255,191,205,1))); /* safari4+,chrome */
 background: -webkit-linear-gradient(90deg, rgba(255,191,205,1) 0%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
