@@ -84,7 +84,6 @@ function calcTimes(latitude, longitude, callback) {
     yaxis: {
       title: "Time",
       tickformat: ("%H:%M")
-
     }
   }
   Plotly.newPlot('graphDiv', data, layout);
