@@ -48,9 +48,9 @@ function calcTimes(latitude, longitude, callback) {
     var sunRise = times.sunrise;
     var noonTime = times.solarNoon;
     var sunSet = times.sunset;
-    sunRise.setFullYear(2017,0,1);
-    noonTime.setFullYear(2017,0,1);
-    sunSet.setFullYear(2017,0,1);
+    sunRise.setFullYear(2010,0,1);
+    noonTime.setFullYear(2010,0,1);
+    sunSet.setFullYear(2010,0,1);
     riseTimes.push(sunRise);
     noonTimes.push(noonTime);
     setTimes.push(sunSet);
