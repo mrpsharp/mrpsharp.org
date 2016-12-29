@@ -100,7 +100,7 @@ $pagination-arrows: true;
   @if $pagination-arrows {
     [aria-label="previous"] {
       &::before {
-        content: '«';
+        content: '<<';
         display: inline-block;
         margin-#{$global-right}: 0.75rem;
       }
@@ -108,7 +108,7 @@ $pagination-arrows: true;
 
     [aria-label="next"] {
       &::after {
-        content: '»';
+        content: '>>';
         display: inline-block;
         margin-#{$global-left}: 0.75rem;
       }
