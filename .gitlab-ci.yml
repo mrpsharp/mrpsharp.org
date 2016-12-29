@@ -2,8 +2,8 @@ image: ruby:2.3
 
 pages:
   script:
-  - export LC_ALL=en_GB.UTF8
-  - export LANG=en_GB.UTF8
+  - export LC_ALL=en_US.UTF8
+  - export LANG=en_US.UTF8
   - gem install jekyll
   - jekyll build -d public
   artifacts:
