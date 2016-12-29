@@ -2,6 +2,7 @@ image: ruby:2.3
 
 pages:
   script:
+  - export LANG=en_GB.utf8
   - gem install jekyll
   - jekyll build -d public
   artifacts:
