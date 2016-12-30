@@ -20,17 +20,17 @@ if (location.search) {
   } else if (shortCode) {
     $shortcodeStatus.text('Badly formed shortcode, redirecting to home...');
     window.setTimeout(function() {
-     window.location.href = "/";
+     window.location.href = "https://www.mrpsharp.org";
     }, 5000);
   } else {
     $shortcodeStatus.text('No shortcode specified, redirecting to home...');
     window.setTimeout(function() {
-      window.location.href = "/";
+      window.location.href = "https://www.mrpsharp.org";
     }, 5000);
   }
 } else {
   $shortcodeStatus.text('No shortcode specified, redirecting to home...');
   window.setTimeout(function() {
-    window.location.href = "/";
+    window.location.href = "https://www.mrpsharp.org";
   }, 5000);
 }
