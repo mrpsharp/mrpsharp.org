@@ -1,3 +1,5 @@
  <script src="/assets/javascripts/vendor/jquery/jquery-2.1.4.min.js"></script>
   <script src="/assets/javascripts/foundation.min.js"></script>
   <script src="/assets/javascripts/scripts.js"></script>
+  {% if page.script %}
+    {% for script in page.script %}<script src="{{ script }}"></script>{% endfor %}{% endif %}
