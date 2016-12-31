@@ -27,7 +27,7 @@ if (location.search) {
       queryDict[item.split("=")[0]] = item.split("=")[1]
   });
   go(queryDict['l']);
-} else if (window.location.host.split(":")[0]=="go.mrpsharp.org") {
+} else if (window.location.host.split(":")[0]=="go.mrpsharp.org" && window.location.pathname.substr(1)!="") {
     go(window.location.pathname.substr(1));
 } else {
     $shortcodeStatus.text('No shortcode specified, redirecting to home...');
