@@ -1,11 +1,24 @@
 ---
 title: Energy levels in the Bohr Atom
 layout: default
-script: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML']
+script: ['https://cdn.plot.ly/plotly-latest.min.js',
+'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG',
+  '/const.js',
+  '/bohr.js']
 ---
-<p>The Bohr atom uses the criteria that the angular momentum of the electron is quantised:</p>
-$$ mvr = \frac{nh}{2\pi} $$
-<p>This is equivalent to the idea that the electron forms a standing wave around the circumference of the atom. Therefore the Kinetic Energy can be calculated using:</p>
-$$ E_k = \frac{p^2}{2m_e} = \frac{h^2n^2}{2\pi r}$$
-<p>The potential energy of the electron is given by:</p>
-$$ E_p = -\frac{Ze^2}{4\pi\epsilon_0 r}$$
+<div class="column row"><p>In 1913, Bohr used the criteria that the angular momentum of the electron is quantised:</p>
+  $$ mvr = \frac{nh}{2\pi} $$
+  <p>This was later reinterpreted by de Broglie as a standing wave condition: the electron acts as a wave and a whole number of wavelengths fits along the circumference:
+  $$ n\lambda = 2\pi r $$
+  Therefore the Kinetic Energy can be calculated using:</p>
+  $$ E_k = \frac{p^2}{2m_e} = \frac{h^2n^2}{2\pi r}$$
+  <p>The potential energy of the electron is given by:</p>
+  $$ E_p = -\frac{Ze^2}{4\pi\epsilon_0 r}$$
+</div>
+<div class="row column">
+  <label>
+  Quantum number (n):
+  <input type="number" id="nValue" value="1" onchange="drawGraph()">
+</label>
+</div>
+<div class="columns row" id="graphDiv"></div>
