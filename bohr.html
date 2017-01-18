@@ -15,10 +15,18 @@ script: ['https://cdn.plot.ly/plotly-latest.min.js',
   <p>The potential energy of the electron is given by:</p>
   $$ E_p = -\frac{Ze^2}{4\pi\epsilon_0 r}$$
 </div>
-<div class="row column">
-  <label>
-  Quantum number (n):
-  <input type="number" id="nValue" value="1" onchange="drawGraph()">
-</label>
+<div class="row">
+  <div class="column small-6">
+    <label>
+    Quantum number (n):
+    <input type="number" id="nValue" value="1" onchange="drawGraph()">
+  </label>
+  </div>
+  <div class="column small-6">
+    <label>
+    Proton Number (Z):
+    <input type="number" id="zValue" value="1" onchange="drawGraph()">
+  </label>
+  </div>
 </div>
 <div class="columns row" id="graphDiv"></div>
