@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mrpsharp\.org [NC]
+RewriteRule ^(.*)$ http://www.mrpsharp.org/$1 [L,R=301,NC]
+RewriteCond %{HTTP_HOST} ^go\.mrpsharp\.org [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* /go/index.html?l=$1 [L]
