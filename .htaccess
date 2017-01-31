@@ -1,6 +1,11 @@
 RewriteEngine on
+# redirect to www
 RewriteCond %{HTTP_HOST} ^mrpsharp\.org [NC]
 RewriteRule ^(.*)$ http://www.mrpsharp.org/$1 [L,R=301,NC]
+# Redirect http to https
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301]
+# go
 RewriteCond %{HTTP_HOST} ^go\.mrpsharp\.org [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
