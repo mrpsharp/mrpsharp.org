@@ -35,10 +35,8 @@ function calcTimes(latitude, longitude, callback) {
   // Calculate values of sunrise, noon and sunset for the year.
   var year = 2017;
   var dates = [];
-  for (var month=0;month<12;month++){
-    for (var day=1;day<30;day+=1) {
-      dates.push(new Date(year,month,day));
-    }
+  for (var d=new Date(year, 0,1);d <= new Date(year,11,31); d.setDate(d.getDate() + 1)) {
+    dates.push(new Date(d));
   }
   var riseTimes = [];
   var noonTimes = [];
