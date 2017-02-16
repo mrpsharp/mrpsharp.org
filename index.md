@@ -9,3 +9,4 @@ Welcome, here you will find a random assortment of stuff.
 * [Daylight Graph](/daylight)
 * [Motion Model](/motion-model)
 * [Bohr Atom](/bohr)
+* [Binding Energy Curve](/binding-energy)
