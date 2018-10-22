@@ -29,19 +29,19 @@ def calcmoon(indate):
     #print("%s %0.f %0.f" % (pamplona.date,moon.alt * 57.3, moon.az * 57.3))
     datelist = pamplona.date.triple()
     moondate = date(int(datelist[0]),int(datelist[1]),int(datelist[2]))
-    return {'date':moondate, 'alt':moon.alt * 57.3, 'az':moon.az * 57.3}
+    return {'date':moondate, 'alt':moon.alt * 57.3, 'az':moon.az * 57.3, 'phase':moon.phase}
 
 start = date(2018,10,22)
 end = date(2019,7,1)
 time = time(9,30)
 print("<table>")
-print(" <tr><th>Date</th><th>Direction (&deg;)</th><th>Altitude (&deg;)</th></tr>")
+print(" <tr><th>Date</th><th>Direction (&deg;)</th><th>Altitude (&deg;)</th><th>Moon phase (%)</th></tr>")
 for singledate in daterange(start, end):
     singledatetime = datetime.combine(singledate, time)
     calcs = calcmoon(singledatetime)
     print(' <tr><td>{:%d/%m/%y}</td>'.format(calcs['date']),end='')
     if calcs['alt'] > 0:
-        print('<td>{:0.0f} ({})</td><td>{:0.0f}</td></tr>'.format(calcs['az'],cardinal(calcs['az']),calcs['alt']))
+        print('<td>{:0.0f} ({})</td><td>{:0.0f}</td><td>{:0.0f}</td></tr>'.format(calcs['az'],cardinal(calcs['az']),calcs['alt'],calcs['phase']))
     else:
-        print('<td colspan=2>Moon below horizon</td></tr>')
+        print('<td colspan=3>Moon below horizon</td></tr>')
 print("</table>")
