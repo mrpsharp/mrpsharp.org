@@ -33,7 +33,7 @@ function getPosition (callback) {
 
 function calcTimes(latitude, longitude, callback) {
   // Calculate values of sunrise, noon and sunset for the year.
-  var year = 2017;
+  var year = 2018;
   var dates = [];
   for (var d=new Date(year, 0,1);d <= new Date(year,11,31); d.setDate(d.getDate() + 1)) {
     dates.push(new Date(d));
