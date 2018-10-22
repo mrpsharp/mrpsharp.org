@@ -8,3 +8,4 @@ go: true
 * [Motion Model](/motion-model)
 * [Bohr Atom](/bohr)
 * [Binding Energy Curve](/binding-energy)
+* [Moon in the morning](/pamplona-moon)
