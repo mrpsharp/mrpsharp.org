@@ -1,5 +1,5 @@
 var goCodes = {
-  'WHW' : 'https://drive.google.com/open?id=1vJXtP076R_a2DFcuIKCIiqaZwp5P6K5d&usp=sharing'
+  'whw': 'https://drive.google.com/open?id=1vJXtP076R_a2DFcuIKCIiqaZwp5P6K5d&usp=sharing'
 };
 
 function go(shortCode) {
@@ -15,7 +15,7 @@ function go(shortCode) {
 }
 var $shortcodeStatus = $('#shortcode-status')
 if (location.search) {
-  //console.log("parsing GET....")
+  console.log("parsing GET....")
   $shortcodeStatus.text('Looking up shortcode');
   var queryDict = {};
   location.search.substr(1).split("&").forEach(function(item) {
